@@ -87,7 +87,7 @@ public class Evaluator {
     }
 
 
-    // When operator stack is not empty perform the operations
+    // When operator stack is not empty perform the operation
     while (!operatorStack.empty()) {
       Operator operatorFromStack = operatorStack.pop();
       Operand operandTwo = operandStack.pop();
